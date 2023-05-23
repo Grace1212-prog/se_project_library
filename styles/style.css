@@ -174,7 +174,7 @@
 }
 
 .events__more {
-  color: #000000;
+  color: #2f80ed;
   text-decoration: none;
 }
 .events__more-link:hover {
@@ -286,7 +286,7 @@
 
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 
-.Algorithms-card {
+.algorithms-card {
   position: relative;
   left: 358px;
   max-width: 760px;
@@ -300,7 +300,7 @@
   bottom: 422px;
 }
 
-.Conduct-card {
+.conduct-card {
   position: relative;
   left: 350px;
   bottom: 372px;
@@ -310,6 +310,14 @@
   left: 780px;
   bottom: 790px;
   position: relative;
+}
+
+.staff__cards {
+  max-width: 760px;
+  margin-top: 68px;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
 }
 .card {
   background-color: #fff;
@@ -436,7 +444,7 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
-  margin-left: 220px;
+  margin-left: 275px;
   margin-top: -50px;
   position: relative;
   z-index: 2;
@@ -448,7 +456,7 @@
   height: 495px;
   border-radius: 50%;
   top: -121px;
-  left: -90px;
+  left: -91px;
   z-index: 0;
   position: absolute;
 }
@@ -460,11 +468,6 @@
   list-style-type: none;
   padding: 57px 102px 60px 80px;
 }
-
-/*.row {
-  display: flex;
-  flex-wrap: wrap;
-}*/
 
 .footer__columns {
   display: flex;
