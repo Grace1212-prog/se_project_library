@@ -287,37 +287,36 @@
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 
 .algorithms-card {
-  position: relative;
   left: 358px;
-  max-width: 760px;
+
   margin-top: 68px;
 }
 
 .structure-card {
   position: relative;
-  left: 780px;
-  max-width: 760px;
+  left: 400px;
   bottom: 422px;
 }
 
 .conduct-card {
   position: relative;
-  left: 350px;
-  bottom: 372px;
+  left: 3px;
+  bottom: 380px;
 }
 
 .Handbook-card {
-  left: 780px;
-  bottom: 790px;
   position: relative;
+  left: 400px;
+  bottom: 800px;
 }
 
 .staff__cards {
   max-width: 760px;
-  margin-top: 68px;
+  margin: 68px auto 0;
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
+  padding-left: 0;
 }
 .card {
   background-color: #fff;
@@ -327,6 +326,7 @@
   height: 420px;
   width: 360px;
   list-style-type: none;
+  justify-content: center;
 }
 
 .card__content {
