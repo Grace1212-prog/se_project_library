@@ -34,14 +34,10 @@
   height: 60px;
   width: 196px;
 }
-.img.logo {
-  height: 60px;
-  width: 196px;
-  align-self: flex-start;
-}
+
 .nav__links {
   /* Reset default list styles here */
-  margin: 8px;
+  margin-top: 8px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: end;
@@ -54,7 +50,7 @@
 .nav__link {
   color: #000000;
   text-decoration: none;
-  font-weight: normal;
+  font-weight: 66px;
 }
 .nav__link:hover {
   color: #1f69c9;
@@ -66,7 +62,7 @@
   line-height: 76px;
   font-weight: 500;
   margin-top: 150px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .header__description {
@@ -74,7 +70,7 @@
   font-size: 20px;
   line-height: 30px;
   margin-top: 32px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .header__image {
@@ -92,7 +88,6 @@
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-  margin-bottom: 1px;
 }
 
 .header__link {
@@ -191,8 +186,6 @@
 
 .events__image {
   max-width: 100%;
-  right: 70px;
-  top: 200px;
 }
 
 .person {
@@ -259,12 +252,11 @@
   font-size: 14px;
   margin: 0;
 }
-.background-image {
-  background-size: cover;
-  padding: 0;
-}
+
 .staff {
   padding: 100px 0 140px;
+  background-image: url(../images/staff_picks_background.jpg);
+  background-size: cover;
 }
 
 .staff__title {
@@ -272,7 +264,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
-  color: #f2f2f2;
+  color: #ffff;
 }
 
 .staff__subtitle {
@@ -281,7 +273,7 @@
   line-height: 30px;
   font-weight: 400;
   margin: 0;
-  color: #f2f2f2;
+  color: #fff;
 }
 
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
@@ -359,15 +351,6 @@
   /* Add styles */
 }
 
-.step-3 {
-  gap: 40px;
-  flex-direction: row;
-}
-
-.flex-container {
-  align-items: center;
-}
-
 .step {
   width: 220px;
   gap: 40px;
@@ -402,9 +385,15 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  display: flex;
 }
 .about__paragraph {
-  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+p:last-of-type {
+  margin-bottom: 32px;
+  margin-top: 32px;
 }
 .about__title {
   margin: 0;
@@ -421,9 +410,7 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
-  margin-left: 275px;
-  margin-top: -50px;
-  position: relative;
+  margin-left: 120px;
   z-index: 2;
 }
 
@@ -467,7 +454,7 @@
   /* The code below removes the default browser styles for lists */
   list-style-type: none;
   padding: 0;
-  margin: 20px;
+  margin-top: 20px;
   font-size: 16px;
   line-height: 20px;
 }
@@ -480,7 +467,7 @@
 }
 
 .footer__column-heading {
-  margin: 16px;
+  margin: 0;
 }
 
 .footer__column-link {
